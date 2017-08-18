@@ -1,8 +1,8 @@
-# Clicknoise
+# Clicking
 
-> Clicknoise is a collective [*Soundworks*](https://github.com/collective-soundworks/soundworks/) application.
+> Clicking is a collective [*Soundworks*](https://github.com/collective-soundworks/soundworks/) application.
 
-Clicknoise makes people interacting between each others by making a single impulse of a white noise signal.
+Clickin makes people interacting between each others by making a single impulse of a white noise signal.
 
 Each player can trigger a white noise impulse whether by touching or by shaking the phone.
 
@@ -11,7 +11,7 @@ Finally, the application provides a database service that gather data regarding 
 
 ## Starting the application
 
-To start running the Clicknoise application, enter this sequence of commands in a terminal:
+To start running the Clicking application, enter this sequence of commands in a terminal:
 
 ```sh
 $ git clone git+ssh://git@git.forge.ircam.fr/cosima-clicking.git
@@ -24,7 +24,7 @@ If you succeeded to execute all commands without errors, you can start connectin
 
 ## Client side
 
-The clicknoise application provides two types of clients: the player and the controller.
+The Clicking application provides two types of clients: the player and the controller.
 Generally we have one controller and several player that interact between each others.
 
 In the examples below, we assume that the server is reachable at the ip: `10.0.0.1` and that all clients are connected to the same network.
