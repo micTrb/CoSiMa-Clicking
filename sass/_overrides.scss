@@ -1,0 +1,84 @@
+// Entry point for application specific styles
+
+.wrapper {
+  padding: 10px;
+}
+
+
+.label-title {
+  margin-bottom: 10px;
+  display: block;
+  font-size: 1.6rem;
+}
+
+#label {
+  width: 100%;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 3%;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+#radio-toolbar {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+.radio-mod {
+  display: block;
+  overflow: hidden;
+  padding-left: 10px;
+  font-style: italic;
+
+  input {
+    margin-right: 10px;
+  }
+}
+
+#session-header {
+  margin-bottom: 10px;
+  display: block;
+  font-size: 1.6rem;
+}
+
+#session-control {
+  margin-top: 20px;
+  font-family: $mainFont;
+}
+
+#session-label {
+  font-size: 1.6rem;
+
+  span {
+    font-size: 1.4rem;
+    font-style: italic;
+    display: block;
+  }
+}
+
+.control-btns {
+  font-family: $mainFont;
+  background-color: white;
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  border-radius: 4px;
+}
+
+.error {
+	color: red;
+}
+
+.selected {
+  background-color: #58AF8A;
+}
+
+.selected2 {
+  background-color: #FF8FB8;
+}
